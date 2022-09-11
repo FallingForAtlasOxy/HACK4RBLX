@@ -1,0 +1,1 @@
+local old local path = game.Players.LocalPlayer.Backpack old = hookmetamethod(path, "__index", function(instances,property)    if tostring(instances) == "CurrentAmmo" and property == "Value" then        return math.huge    end    return old(instances,property)    end)
