@@ -1,0 +1,58 @@
+_G.Settings = {
+['Name'] = 'Kuna1s scam game scammer',
+['Intro'] = false,
+['Keybind'] = 'G'
+}
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/QPehPJ6m", true))()
+
+
+local Tab1 = Library:CreateTab("main")
+
+Tab1:Label('Auto farm scams')
+Tab1:Toggle('Toggle', false, function(bool)
+    on = true
+    while on == true do
+    local waittime = game:GetService("Players").LocalPlayer.Data.TransferSpeed.Value
+    game:GetService("ReplicatedStorage").Events.GenerateNumber:FireServer()
+    wait(1)
+    local numbergen = game:GetService("Players").LocalPlayer.GeneratedNumber.Value
+    local args = {
+        [1] = numbergen
+    }
+    game:GetService("ReplicatedStorage").Events.CheckNumber:FireServer(unpack(args))
+    wait(waittime+1)
+    end
+end)
+
+Tab1:Label('Auto upgrade')
+Tab1:Toggle('Toggle', false, function(bool)
+on = true
+while on == true do
+wait(1)
+local scamspeed = game:GetService("Players").LocalPlayer.Data.ScamSpeedLevel.Value
+local args = {
+    [1] = "ScamSpeed",
+    [2] = scamspeed + 1
+}
+
+game:GetService("ReplicatedStorage").Events.UpgradeItem:FireServer(unpack(args))
+
+
+local transspeed = game:GetService("Players").LocalPlayer.Data.TransferSpeedLevel.Value
+local args = {
+    [1] = "TransferSpeed",
+    [2] = transspeed+1
+}
+
+game:GetService("ReplicatedStorage").Events.UpgradeItem:FireServer(unpack(args))
+
+local scamcash = game:GetService("Players").LocalPlayer.Data.ScamValueLevel.Value
+local args = {
+    [1] = "ScamValue",
+    [2] = scamcash+1
+}
+
+game:GetService("ReplicatedStorage").Events.UpgradeItem:FireServer(unpack(args))
+end
+end)
