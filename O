@@ -1,0 +1,70 @@
+--config
+local minvariant = 1 --normal = 1, shiny = 2, etc
+local minrarity = 0 --use number or string, will auto convert string to number
+local secondsupgradingafterdeath = 4 --if you die, it will go to the upgrader for this amount of seconds
+--end of config
+
+
+
+for i, v in pairs(require(game:GetService("ReplicatedStorage").GameData).RarityNames) do
+    if v.Name == minrarity then
+        minrarity = i
+    end
+end
+local t = 0
+local hasmetreqs = false
+while task.wait() do
+    pcall(function()
+        if not game.Players.LocalPlayer.Character:FindFirstChild("Scythe") then
+            pcall(function()
+                if not game.Players.LocalPlayer.Backpack:FindFirstChild("Scythe") then
+                    for i = 1, secondsupgradingafterdeath*60 do
+                        task.wait()
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").RarityGet.Hitbox.CFrame
+                    end
+                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").PVPIsland.PVPPlate.CFrame
+                    task.wait(5)
+                    if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool") then
+                        game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool").Parent = game.Players.LocalPlayer.Backpack
+                    end
+                    game.Players.LocalPlayer.Backpack.Scythe.Parent = game.Players.LocalPlayer.Character
+                end
+            end)
+            pcall(function()
+                if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool") then
+                        game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool").Parent = game.Players.LocalPlayer.Backpack
+                    end
+                    game.Players.LocalPlayer.Backpack.Scythe.Parent = game.Players.LocalPlayer.Character
+            end)
+        end
+        pcall(function()
+            if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool") then
+                game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool").Parent = game.Players.LocalPlayer.Backpack
+            end
+            game.Players.LocalPlayer.Backpack.Scythe.Parent = game.Players.LocalPlayer.Character
+        end)
+        hasmetreqs = false
+        for i, v in pairs(workspace.PVPIsland.NPCs:GetChildren()) do
+            if v:FindFirstChild("Rarity") and v:FindFirstChild("Variant") then
+                if v.Rarity.Value >= minrarity and v.Variant.Value >= minvariant then
+                    hasmetreqs = true
+                    pcall(function()
+                        if v.Humanoid.Health > 0 then
+                            t = 0
+                            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
+                            repeat
+                                t = t + 1
+                                task.wait()
+                                v.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.Scythe.Handle.CFrame
+                                game.Players.LocalPlayer.Character.Scythe:Activate()
+                            until v.Humanoid.Health <= 0 or t == 30
+                            if t == 30 then
+                                v:Destroy()
+                            end
+                        end
+                    end)
+                end
+            end
+        end
+    end)
+end
