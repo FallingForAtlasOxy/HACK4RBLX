@@ -91,3 +91,7 @@ end
 end)
 Fly()
 end)
+ 
+-- CREDITS
+local Credits = Window:NewTab("Credits")
+local Creds = Credits:NewSection("FallingForAtlasOxy")
