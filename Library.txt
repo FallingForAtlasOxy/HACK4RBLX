@@ -8,7 +8,7 @@ local Plot = Player.NonSaveVars.OwnsPlot.Value;
 local MainSignal = nil;
 local Configuration = {
 	["CanGrab"] = {
-		["Normal"] = false,
+		["Normal"] = true,
 		["Silver"] = true,
 		["Gold"] = true,
 		["Emerald"] = true,
@@ -16,8 +16,8 @@ local Configuration = {
 		["Sapphire"] = true,
 	},
 	["Autofarm"] = {
-		["TrueAutoFarm"] = false,
-		["Grabbing"] = false,
+		["TrueAutoFarm"] = true,
+		["Grabbing"] = true,
 	},
 };
 
