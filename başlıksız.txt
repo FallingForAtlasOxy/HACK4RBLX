@@ -1,0 +1,774 @@
+--Made by AtlasOfficial
+--Have A Good Game ;D
+
+print ("Script Executed Have A Good Day")
+
+local ac_a=Instance.new("ScreenGui")
+local bc_a=Instance.new("Frame")local cc_a=Instance.new("Frame")
+local dc_a=Instance.new("TextLabel")local _d_a=Instance.new("TextLabel")
+local ad_a=Instance.new("TextButton")local bd_a=Instance.new("Frame")
+local cd_a=Instance.new("TextButton")local dd_a=Instance.new("TextLabel")
+local __aa=Instance.new("TextLabel")local a_aa=Instance.new("TextLabel")
+local b_aa=Instance.new("TextLabel")local c_aa=Instance.new("TextButton")
+local d_aa=Instance.new("Frame")local _aaa=Instance.new("TextLabel")
+local aaaa=Instance.new("TextButton")local baaa=Instance.new("Frame")
+local caaa=Instance.new("ScrollingFrame")local daaa=Instance.new("TextButton")
+local _baa=Instance.new("TextButton")local abaa=Instance.new("TextButton")
+local bbaa=Instance.new("TextButton")local cbaa=Instance.new("TextButton")
+local dbaa=Instance.new("TextButton")local _caa=Instance.new("TextButton")
+local acaa=Instance.new("TextButton")local bcaa=Instance.new("TextButton")
+local ccaa=Instance.new("TextButton")local dcaa=Instance.new("TextButton")
+local _daa=Instance.new("TextButton")local adaa=Instance.new("TextButton")
+local bdaa=Instance.new("TextButton")local cdaa=Instance.new("TextButton")
+local ddaa=Instance.new("TextButton")local __ba=Instance.new("TextButton")
+local a_ba=Instance.new("TextButton")local b_ba=Instance.new("TextButton")
+local c_ba=Instance.new("TextButton")local d_ba=Instance.new("TextButton")
+local _aba=Instance.new("TextButton")local aaba=Instance.new("TextButton")
+local baba=Instance.new("TextButton")local caba=Instance.new("TextButton")
+local daba=Instance.new("TextButton")local _bba=Instance.new("TextButton")
+local abba=Instance.new("TextButton")local bbba=Instance.new("TextButton")
+local cbba=Instance.new("TextButton")local dbba=Instance.new("TextButton")
+local _cba=Instance.new("TextButton")local acba=Instance.new("TextButton")
+local bcba=Instance.new("TextButton")local ccba=Instance.new("TextButton")
+local dcba=Instance.new("TextButton")local _dba=Instance.new("TextButton")
+local adba=Instance.new("TextButton")local bdba=Instance.new("TextButton")
+local cdba=Instance.new("TextButton")local ddba=Instance.new("TextButton")
+local __ca=Instance.new("TextButton")local a_ca=Instance.new("TextButton")
+local b_ca=Instance.new("TextButton")local c_ca=Instance.new("TextLabel")
+local d_ca=Instance.new("TextLabel")local _aca=Instance.new("TextButton")
+local aaca=Instance.new("Frame")local baca=Instance.new("TextLabel")ac_a.Name="zEndICV"
+ac_a.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui")ac_a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling
+bc_a.Parent=ac_a;bc_a.BackgroundColor3=Color3.fromRGB(27,27,27)
+bc_a.Position=UDim2.new(0.442424238,0,0.307810098,0)bc_a.Size=UDim2.new(0,211,0,315)cc_a.Name="zEndHack"
+cc_a.Parent=bc_a;cc_a.BackgroundColor3=Color3.fromRGB(47,47,47)
+cc_a.BorderSizePixel=0;cc_a.Size=UDim2.new(0,211,0,26)dc_a.Parent=cc_a
+dc_a.BackgroundColor3=Color3.fromRGB(255,255,255)dc_a.BackgroundTransparency=1.000;dc_a.BorderSizePixel=0
+dc_a.Size=UDim2.new(0,211,0,26)dc_a.Font=Enum.Font.Highway;dc_a.Text="zEndVan v1.0"
+dc_a.TextColor3=Color3.fromRGB(0,170,255)dc_a.TextSize=14.000;_d_a.Name="ASIC"_d_a.Parent=bc_a
+_d_a.BackgroundColor3=Color3.fromRGB(255,255,255)_d_a.BackgroundTransparency=1.000
+_d_a.Position=UDim2.new(0.161137432,0,0.206349224,0)_d_a.Size=UDim2.new(0,62,0,29)
+_d_a.Font=Enum.Font.Highway;_d_a.Text="Auto-Buy"
+_d_a.TextColor3=Color3.fromRGB(255,255,255)_d_a.TextSize=14.000;ad_a.Name="ASICTB"ad_a.Parent=bc_a
+ad_a.BackgroundColor3=Color3.fromRGB(255,255,255)ad_a.Position=UDim2.new(0.0663507134,0,0.311111122,0)
+ad_a.Size=UDim2.new(0,20,0,20)ad_a.Font=Enum.Font.SourceSans;ad_a.Text=""
+ad_a.TextColor3=Color3.fromRGB(0,0,0)ad_a.TextSize=14.000;bd_a.Name="OnAS"bd_a.Parent=ad_a
+bd_a.BackgroundColor3=Color3.fromRGB(77,77,77)bd_a.BorderSizePixel=0;bd_a.Position=UDim2.new(0,4,0,4)
+bd_a.Size=UDim2.new(0,12,0,12)cd_a.Name="DropDown"cd_a.Parent=bc_a
+cd_a.BackgroundColor3=Color3.fromRGB(63,63,63)cd_a.BorderSizePixel=0
+cd_a.Position=UDim2.new(0.0663507134,0,0.111111112,0)cd_a.Size=UDim2.new(0,182,0,23)
+cd_a.Font=Enum.Font.Highway;cd_a.Text="Vanilla Lolly"
+cd_a.TextColor3=Color3.fromRGB(255,255,255)cd_a.TextSize=14.000
+cd_a.TextXAlignment=Enum.TextXAlignment.Left;dd_a.Name="v"dd_a.Parent=cd_a
+dd_a.BackgroundColor3=Color3.fromRGB(255,255,255)dd_a.BackgroundTransparency=1.000
+dd_a.Position=UDim2.new(0.890109897,0,0,0)dd_a.Size=UDim2.new(0,20,0,23)
+dd_a.Font=Enum.Font.Highway;dd_a.Text="v"dd_a.TextColor3=Color3.fromRGB(255,255,255)
+dd_a.TextSize=14.000;__aa.Name="Cord"__aa.Parent=bc_a
+__aa.BackgroundColor3=Color3.fromRGB(255,255,255)__aa.BackgroundTransparency=1.000
+__aa.Position=UDim2.new(-0.000758290291,0,0.899812818,0)__aa.Size=UDim2.new(0,211,0,31)
+__aa.Font=Enum.Font.Highway;__aa.Text="Chesy#0666"__aa.TextColor3=Color3.fromRGB(0,0,0)
+__aa.TextSize=14.000;a_aa.Name="ABIC"a_aa.Parent=bc_a
+a_aa.BackgroundColor3=Color3.fromRGB(255,255,255)a_aa.BackgroundTransparency=1.000
+a_aa.Position=UDim2.new(0.161137432,0,0.29841271,0)a_aa.Size=UDim2.new(0,62,0,29)
+a_aa.Font=Enum.Font.Highway;a_aa.Text="Auto-Sell"
+a_aa.TextColor3=Color3.fromRGB(255,255,255)a_aa.TextSize=14.000;b_aa.Name="Cord2"b_aa.Parent=bc_a
+b_aa.BackgroundColor3=Color3.fromRGB(255,255,255)b_aa.BackgroundTransparency=1.000
+b_aa.Position=UDim2.new(-0.00549762696,0,0.852193773,0)b_aa.Size=UDim2.new(0,211,0,31)
+b_aa.Font=Enum.Font.Highway;b_aa.Text="https://discord.gg/q4yvxHv"
+b_aa.TextColor3=Color3.fromRGB(0,0,0)b_aa.TextSize=14.000;c_aa.Name="SpeedTB"c_aa.Parent=bc_a
+c_aa.BackgroundColor3=Color3.fromRGB(255,255,255)c_aa.Position=UDim2.new(0.0663507134,0,0.403174609,0)
+c_aa.Size=UDim2.new(0,20,0,20)c_aa.Font=Enum.Font.SourceSans;c_aa.Text=""
+c_aa.TextColor3=Color3.fromRGB(0,0,0)c_aa.TextSize=14.000;d_aa.Name="OnSPEED"d_aa.Parent=c_aa
+d_aa.BackgroundColor3=Color3.fromRGB(77,77,77)d_aa.BorderSizePixel=0;d_aa.Position=UDim2.new(0,4,0,4)
+d_aa.Size=UDim2.new(0,12,0,12)_aaa.Name="SpeedIC"_aaa.Parent=bc_a
+_aaa.BackgroundColor3=Color3.fromRGB(255,255,255)_aaa.BackgroundTransparency=1.000
+_aaa.Position=UDim2.new(0.194312796,0,0.390476197,0)_aaa.Size=UDim2.new(0,55,0,29)
+_aaa.Font=Enum.Font.Highway;_aaa.Text="Speed"
+_aaa.TextColor3=Color3.fromRGB(255,255,255)_aaa.TextSize=14.000
+_aaa.TextXAlignment=Enum.TextXAlignment.Left;aaaa.Name="ABICTB"aaaa.Parent=bc_a
+aaaa.BackgroundColor3=Color3.fromRGB(255,255,255)aaaa.Position=UDim2.new(0.0663507134,0,0.219047636,0)
+aaaa.Size=UDim2.new(0,20,0,20)aaaa.Font=Enum.Font.SourceSans;aaaa.Text=""
+aaaa.TextColor3=Color3.fromRGB(0,0,0)aaaa.TextSize=14.000;baaa.Name="OnAB"baaa.Parent=aaaa
+baaa.BackgroundColor3=Color3.fromRGB(77,77,77)baaa.BorderSizePixel=0;baaa.Position=UDim2.new(0,4,0,4)
+baaa.Size=UDim2.new(0,12,0,12)caaa.Parent=bc_a
+caaa.BackgroundColor3=Color3.fromRGB(50,50,50)caaa.BorderSizePixel=0
+caaa.Position=UDim2.new(0.0663507134,0,0.184126988,0)caaa.Size=UDim2.new(0,182,0,80)caaa.Visible=false
+caaa.CanvasSize=UDim2.new(0,0,8,0)daaa.Name="Vanilla Lolly"daaa.Parent=caaa
+daaa.BackgroundColor3=Color3.fromRGB(50,50,50)daaa.BorderColor3=Color3.fromRGB(27,42,53)
+daaa.BorderSizePixel=0;daaa.Size=UDim2.new(0,182,0,20)
+daaa.Font=Enum.Font.Highway;daaa.Text="Vanilla Lolly"
+daaa.TextColor3=Color3.fromRGB(255,255,255)daaa.TextSize=14.000
+daaa.TextStrokeColor3=Color3.fromRGB(255,255,255)daaa.TextXAlignment=Enum.TextXAlignment.Left
+_baa.Name="Strawberry Lolly"_baa.Parent=caaa
+_baa.BackgroundColor3=Color3.fromRGB(50,50,50)_baa.BorderSizePixel=0;_baa.Position=UDim2.new(0,0,0,20)
+_baa.Size=UDim2.new(0,182,0,20)_baa.Font=Enum.Font.Highway;_baa.Text="Strawberry Lolly"
+_baa.TextColor3=Color3.fromRGB(255,255,255)_baa.TextSize=14.000
+_baa.TextStrokeColor3=Color3.fromRGB(255,255,255)_baa.TextXAlignment=Enum.TextXAlignment.Left
+abaa.Name="Chocolate Lolly"abaa.Parent=caaa
+abaa.BackgroundColor3=Color3.fromRGB(50,50,50)abaa.BorderSizePixel=0;abaa.Position=UDim2.new(0,0,0,40)
+abaa.Size=UDim2.new(0,182,0,20)abaa.Font=Enum.Font.Highway;abaa.Text="Chocolate Lolly"
+abaa.TextColor3=Color3.fromRGB(255,255,255)abaa.TextSize=14.000
+abaa.TextStrokeColor3=Color3.fromRGB(255,255,255)abaa.TextXAlignment=Enum.TextXAlignment.Left
+bbaa.Name="Watermelon Lolly"bbaa.Parent=caaa
+bbaa.BackgroundColor3=Color3.fromRGB(50,50,50)bbaa.BorderSizePixel=0;bbaa.Position=UDim2.new(0,0,0,180)
+bbaa.Size=UDim2.new(0,182,0,20)bbaa.Font=Enum.Font.Highway;bbaa.Text="Watermelon Lolly"
+bbaa.TextColor3=Color3.fromRGB(255,255,255)bbaa.TextSize=14.000
+bbaa.TextStrokeColor3=Color3.fromRGB(255,255,255)bbaa.TextXAlignment=Enum.TextXAlignment.Left
+cbaa.Name="Bubblegum Lolly"cbaa.Parent=caaa
+cbaa.BackgroundColor3=Color3.fromRGB(50,50,50)cbaa.BorderSizePixel=0;cbaa.Position=UDim2.new(0,0,0,160)
+cbaa.Size=UDim2.new(0,182,0,20)cbaa.Font=Enum.Font.Highway;cbaa.Text="Bubblegum Lolly"
+cbaa.TextColor3=Color3.fromRGB(255,255,255)cbaa.TextSize=14.000
+cbaa.TextStrokeColor3=Color3.fromRGB(255,255,255)cbaa.TextXAlignment=Enum.TextXAlignment.Left
+dbaa.Name="Orange Lolly"dbaa.Parent=caaa
+dbaa.BackgroundColor3=Color3.fromRGB(50,50,50)dbaa.BorderSizePixel=0;dbaa.Position=UDim2.new(0,0,0,140)
+dbaa.Size=UDim2.new(0,182,0,20)dbaa.Font=Enum.Font.Highway;dbaa.Text="Orange Lolly"
+dbaa.TextColor3=Color3.fromRGB(255,255,255)dbaa.TextSize=14.000
+dbaa.TextStrokeColor3=Color3.fromRGB(255,255,255)dbaa.TextXAlignment=Enum.TextXAlignment.Left
+_caa.Name="Banana Lolly"_caa.Parent=caaa
+_caa.BackgroundColor3=Color3.fromRGB(50,50,50)_caa.BorderSizePixel=0;_caa.Position=UDim2.new(0,0,0,120)
+_caa.Size=UDim2.new(0,182,0,20)_caa.Font=Enum.Font.Highway;_caa.Text="Banana Lolly"
+_caa.TextColor3=Color3.fromRGB(255,255,255)_caa.TextSize=14.000
+_caa.TextStrokeColor3=Color3.fromRGB(255,255,255)_caa.TextXAlignment=Enum.TextXAlignment.Left
+acaa.Name="Apple Lolly"acaa.Parent=caaa
+acaa.BackgroundColor3=Color3.fromRGB(50,50,50)acaa.BorderSizePixel=0;acaa.Position=UDim2.new(0,0,0,100)
+acaa.Size=UDim2.new(0,182,0,20)acaa.Font=Enum.Font.Highway;acaa.Text="Apple Lolly"
+acaa.TextColor3=Color3.fromRGB(255,255,255)acaa.TextSize=14.000
+acaa.TextStrokeColor3=Color3.fromRGB(255,255,255)acaa.TextXAlignment=Enum.TextXAlignment.Left
+bcaa.Name="Cherry Lolly"bcaa.Parent=caaa
+bcaa.BackgroundColor3=Color3.fromRGB(50,50,50)bcaa.BorderSizePixel=0;bcaa.Position=UDim2.new(0,0,0,80)
+bcaa.Size=UDim2.new(0,182,0,20)bcaa.Font=Enum.Font.Highway;bcaa.Text="Cherry Lolly"
+bcaa.TextColor3=Color3.fromRGB(255,255,255)bcaa.TextSize=14.000
+bcaa.TextStrokeColor3=Color3.fromRGB(255,255,255)bcaa.TextXAlignment=Enum.TextXAlignment.Left
+ccaa.Name="Lemon Lolly"ccaa.Parent=caaa
+ccaa.BackgroundColor3=Color3.fromRGB(50,50,50)ccaa.BorderSizePixel=0;ccaa.Position=UDim2.new(0,0,0,60)
+ccaa.Size=UDim2.new(0,182,0,20)ccaa.Font=Enum.Font.Highway;ccaa.Text="Lemon Lolly"
+ccaa.TextColor3=Color3.fromRGB(255,255,255)ccaa.TextSize=14.000
+ccaa.TextStrokeColor3=Color3.fromRGB(255,255,255)ccaa.TextXAlignment=Enum.TextXAlignment.Left
+dcaa.Name="Lemon Cone"dcaa.Parent=caaa
+dcaa.BackgroundColor3=Color3.fromRGB(50,50,50)dcaa.BorderSizePixel=0;dcaa.Position=UDim2.new(0,0,0,460)
+dcaa.Size=UDim2.new(0,182,0,20)dcaa.Font=Enum.Font.Highway;dcaa.Text="Lemon Cone"
+dcaa.TextColor3=Color3.fromRGB(255,255,255)dcaa.TextSize=14.000
+dcaa.TextStrokeColor3=Color3.fromRGB(255,255,255)dcaa.TextXAlignment=Enum.TextXAlignment.Left
+_daa.Name="Chocolate Cone"_daa.Parent=caaa
+_daa.BackgroundColor3=Color3.fromRGB(50,50,50)_daa.BorderSizePixel=0;_daa.Position=UDim2.new(0,0,0,440)
+_daa.Size=UDim2.new(0,182,0,20)_daa.Font=Enum.Font.Highway;_daa.Text="Chocolate Cone"
+_daa.TextColor3=Color3.fromRGB(255,255,255)_daa.TextSize=14.000
+_daa.TextStrokeColor3=Color3.fromRGB(255,255,255)_daa.TextXAlignment=Enum.TextXAlignment.Left
+adaa.Name="Strawberry Cone"adaa.Parent=caaa
+adaa.BackgroundColor3=Color3.fromRGB(50,50,50)adaa.BorderSizePixel=0;adaa.Position=UDim2.new(0,0,0,420)
+adaa.Size=UDim2.new(0,182,0,20)adaa.Font=Enum.Font.Highway;adaa.Text="Strawberry Cone"
+adaa.TextColor3=Color3.fromRGB(255,255,255)adaa.TextSize=14.000
+adaa.TextStrokeColor3=Color3.fromRGB(255,255,255)adaa.TextXAlignment=Enum.TextXAlignment.Left
+bdaa.Name="Bloxy-Cola Slushy"bdaa.Parent=caaa
+bdaa.BackgroundColor3=Color3.fromRGB(50,50,50)bdaa.BorderSizePixel=0;bdaa.Position=UDim2.new(0,0,0,260)
+bdaa.Size=UDim2.new(0,182,0,20)bdaa.Font=Enum.Font.Highway;bdaa.Text="Bloxy-Cola Slushy"
+bdaa.TextColor3=Color3.fromRGB(255,255,255)bdaa.TextSize=14.000
+bdaa.TextStrokeColor3=Color3.fromRGB(255,255,255)bdaa.TextXAlignment=Enum.TextXAlignment.Left
+cdaa.Name="Bubblegum Cone"cdaa.Parent=caaa
+cdaa.BackgroundColor3=Color3.fromRGB(50,50,50)cdaa.BorderSizePixel=0;cdaa.Position=UDim2.new(0,0,0,560)
+cdaa.Size=UDim2.new(0,182,0,20)cdaa.Font=Enum.Font.Highway;cdaa.Text="Bubblegum Cone"
+cdaa.TextColor3=Color3.fromRGB(255,255,255)cdaa.TextSize=14.000
+cdaa.TextStrokeColor3=Color3.fromRGB(255,255,255)cdaa.TextXAlignment=Enum.TextXAlignment.Left
+ddaa.Name="Vanilla Cone"ddaa.Parent=caaa
+ddaa.BackgroundColor3=Color3.fromRGB(50,50,50)ddaa.BorderSizePixel=0;ddaa.Position=UDim2.new(0,0,0,400)
+ddaa.Size=UDim2.new(0,182,0,20)ddaa.Font=Enum.Font.Highway;ddaa.Text="Vanilla Cone"
+ddaa.TextColor3=Color3.fromRGB(255,255,255)ddaa.TextSize=14.000
+ddaa.TextStrokeColor3=Color3.fromRGB(255,255,255)ddaa.TextXAlignment=Enum.TextXAlignment.Left
+__ba.Name="Orange Cone"__ba.Parent=caaa
+__ba.BackgroundColor3=Color3.fromRGB(50,50,50)__ba.BorderSizePixel=0;__ba.Position=UDim2.new(0,0,0,540)
+__ba.Size=UDim2.new(0,182,0,20)__ba.Font=Enum.Font.Highway;__ba.Text="Orange Cone"
+__ba.TextColor3=Color3.fromRGB(255,255,255)__ba.TextSize=14.000
+__ba.TextStrokeColor3=Color3.fromRGB(255,255,255)__ba.TextXAlignment=Enum.TextXAlignment.Left
+a_ba.Name="Apple Cone"a_ba.Parent=caaa
+a_ba.BackgroundColor3=Color3.fromRGB(50,50,50)a_ba.BorderSizePixel=0;a_ba.Position=UDim2.new(0,0,0,500)
+a_ba.Size=UDim2.new(0,182,0,20)a_ba.Font=Enum.Font.Highway;a_ba.Text="Apple Cone"
+a_ba.TextColor3=Color3.fromRGB(255,255,255)a_ba.TextSize=14.000
+a_ba.TextStrokeColor3=Color3.fromRGB(255,255,255)a_ba.TextXAlignment=Enum.TextXAlignment.Left
+b_ba.Name="Cherry Cone"b_ba.Parent=caaa
+b_ba.BackgroundColor3=Color3.fromRGB(50,50,50)b_ba.BorderSizePixel=0;b_ba.Position=UDim2.new(0,0,0,480)
+b_ba.Size=UDim2.new(0,182,0,20)b_ba.Font=Enum.Font.Highway;b_ba.Text="Cherry Cone"
+b_ba.TextColor3=Color3.fromRGB(255,255,255)b_ba.TextSize=14.000
+b_ba.TextStrokeColor3=Color3.fromRGB(255,255,255)b_ba.TextXAlignment=Enum.TextXAlignment.Left
+c_ba.Name="Banana Cone"c_ba.Parent=caaa
+c_ba.BackgroundColor3=Color3.fromRGB(50,50,50)c_ba.BorderSizePixel=0;c_ba.Position=UDim2.new(0,0,0,520)
+c_ba.Size=UDim2.new(0,182,0,20)c_ba.Font=Enum.Font.Highway;c_ba.Text="Banana Cone"
+c_ba.TextColor3=Color3.fromRGB(255,255,255)c_ba.TextSize=14.000
+c_ba.TextStrokeColor3=Color3.fromRGB(255,255,255)c_ba.TextXAlignment=Enum.TextXAlignment.Left
+d_ba.Name="Bubblegum Slushy"d_ba.Parent=caaa
+d_ba.BackgroundColor3=Color3.fromRGB(50,50,50)d_ba.BorderSizePixel=0;d_ba.Position=UDim2.new(0,0,0,300)
+d_ba.Size=UDim2.new(0,182,0,20)d_ba.Font=Enum.Font.Highway;d_ba.Text="Bubblegum Slushy"
+d_ba.TextColor3=Color3.fromRGB(255,255,255)d_ba.TextSize=14.000
+d_ba.TextStrokeColor3=Color3.fromRGB(255,255,255)d_ba.TextXAlignment=Enum.TextXAlignment.Left
+_aba.Name="Apple Slushy"_aba.Parent=caaa
+_aba.BackgroundColor3=Color3.fromRGB(50,50,50)_aba.BorderSizePixel=0;_aba.Position=UDim2.new(0,0,0,240)
+_aba.Size=UDim2.new(0,182,0,20)_aba.Font=Enum.Font.Highway;_aba.Text="Apple Slushy"
+_aba.TextColor3=Color3.fromRGB(255,255,255)_aba.TextSize=14.000
+_aba.TextStrokeColor3=Color3.fromRGB(255,255,255)_aba.TextXAlignment=Enum.TextXAlignment.Left
+aaba.Name="Raspberry Slushy"aaba.Parent=caaa
+aaba.BackgroundColor3=Color3.fromRGB(50,50,50)aaba.BorderSizePixel=0;aaba.Position=UDim2.new(0,0,0,220)
+aaba.Size=UDim2.new(0,182,0,20)aaba.Font=Enum.Font.Highway;aaba.Text="Raspberry Slushy"
+aaba.TextColor3=Color3.fromRGB(255,255,255)aaba.TextSize=14.000
+aaba.TextStrokeColor3=Color3.fromRGB(255,255,255)aaba.TextXAlignment=Enum.TextXAlignment.Left
+baba.Name="Strawberry Slushy"baba.Parent=caaa
+baba.BackgroundColor3=Color3.fromRGB(50,50,50)baba.BorderSizePixel=0;baba.Position=UDim2.new(0,0,0,200)
+baba.Size=UDim2.new(0,182,0,20)baba.Font=Enum.Font.Highway;baba.Text="Strawberry Slushy"
+baba.TextColor3=Color3.fromRGB(255,255,255)baba.TextSize=14.000
+baba.TextStrokeColor3=Color3.fromRGB(255,255,255)baba.TextXAlignment=Enum.TextXAlignment.Left
+caba.Name="Grape Slushy"caba.Parent=caaa
+caba.BackgroundColor3=Color3.fromRGB(50,50,50)caba.BorderSizePixel=0;caba.Position=UDim2.new(0,0,0,360)
+caba.Size=UDim2.new(0,182,0,20)caba.Font=Enum.Font.Highway;caba.Text="Grape Slushy"
+caba.TextColor3=Color3.fromRGB(255,255,255)caba.TextSize=14.000
+caba.TextStrokeColor3=Color3.fromRGB(255,255,255)caba.TextXAlignment=Enum.TextXAlignment.Left
+daba.Name="Cotton-Candy Slushy"daba.Parent=caaa
+daba.BackgroundColor3=Color3.fromRGB(50,50,50)daba.BorderSizePixel=0;daba.Position=UDim2.new(0,0,0,340)
+daba.Size=UDim2.new(0,182,0,20)daba.Font=Enum.Font.Highway;daba.Text="Cotton-Candy Slushy"
+daba.TextColor3=Color3.fromRGB(255,255,255)daba.TextSize=14.000
+daba.TextStrokeColor3=Color3.fromRGB(255,255,255)daba.TextXAlignment=Enum.TextXAlignment.Left
+_bba.Name="Pineapple Slushy"_bba.Parent=caaa
+_bba.BackgroundColor3=Color3.fromRGB(50,50,50)_bba.BorderSizePixel=0;_bba.Position=UDim2.new(0,0,0,380)
+_bba.Size=UDim2.new(0,182,0,20)_bba.Font=Enum.Font.Highway;_bba.Text="Pineapple Slushy"
+_bba.TextColor3=Color3.fromRGB(255,255,255)_bba.TextSize=14.000
+_bba.TextStrokeColor3=Color3.fromRGB(255,255,255)_bba.TextXAlignment=Enum.TextXAlignment.Left
+abba.Name="Mango Slushy"abba.Parent=caaa
+abba.BackgroundColor3=Color3.fromRGB(50,50,50)abba.BorderSizePixel=0;abba.Position=UDim2.new(0,0,0,320)
+abba.Size=UDim2.new(0,182,0,20)abba.Font=Enum.Font.Highway;abba.Text="Mango Slushy"
+abba.TextColor3=Color3.fromRGB(255,255,255)abba.TextSize=14.000
+abba.TextStrokeColor3=Color3.fromRGB(255,255,255)abba.TextXAlignment=Enum.TextXAlignment.Left
+bbba.Name="Tropical Slushy"bbba.Parent=caaa
+bbba.BackgroundColor3=Color3.fromRGB(50,50,50)bbba.BorderSizePixel=0;bbba.Position=UDim2.new(0,0,0,280)
+bbba.Size=UDim2.new(0,182,0,20)bbba.Font=Enum.Font.Highway;bbba.Text="Tropical Slushy"
+bbba.TextColor3=Color3.fromRGB(255,255,255)bbba.TextSize=14.000
+bbba.TextStrokeColor3=Color3.fromRGB(255,255,255)bbba.TextXAlignment=Enum.TextXAlignment.Left
+cbba.Name="Watermelon Cone"cbba.Parent=caaa
+cbba.BackgroundColor3=Color3.fromRGB(50,50,50)cbba.BorderSizePixel=0;cbba.Position=UDim2.new(0,0,0,580)
+cbba.Size=UDim2.new(0,182,0,20)cbba.Font=Enum.Font.Highway;cbba.Text="Watermelon Cone"
+cbba.TextColor3=Color3.fromRGB(255,255,255)cbba.TextSize=14.000
+cbba.TextStrokeColor3=Color3.fromRGB(255,255,255)cbba.TextXAlignment=Enum.TextXAlignment.Left
+dbba.Name="Liquorice Parcel"dbba.Parent=caaa
+dbba.BackgroundColor3=Color3.fromRGB(50,50,50)dbba.BorderSizePixel=0;dbba.Position=UDim2.new(0,0,0,600)
+dbba.Size=UDim2.new(0,182,0,20)dbba.Font=Enum.Font.Highway;dbba.Text="Liquorice Parcel"
+dbba.TextColor3=Color3.fromRGB(255,255,255)dbba.TextSize=14.000
+dbba.TextStrokeColor3=Color3.fromRGB(255,255,255)dbba.TextXAlignment=Enum.TextXAlignment.Left
+_cba.Name="Cinnamon Parcel"_cba.Parent=caaa
+_cba.BackgroundColor3=Color3.fromRGB(50,50,50)_cba.BorderSizePixel=0;_cba.Position=UDim2.new(0,0,0,620)
+_cba.Size=UDim2.new(0,182,0,20)_cba.Font=Enum.Font.Highway;_cba.Text="Cinnamon Parcel"
+_cba.TextColor3=Color3.fromRGB(255,255,255)_cba.TextSize=14.000
+_cba.TextStrokeColor3=Color3.fromRGB(255,255,255)_cba.TextXAlignment=Enum.TextXAlignment.Left
+acba.Name="Mint Parcel"acba.Parent=caaa
+acba.BackgroundColor3=Color3.fromRGB(50,50,50)acba.BorderSizePixel=0;acba.Position=UDim2.new(0,0,0,640)
+acba.Size=UDim2.new(0,182,0,20)acba.Font=Enum.Font.Highway;acba.Text="Mint Parcel"
+acba.TextColor3=Color3.fromRGB(255,255,255)acba.TextSize=14.000
+acba.TextStrokeColor3=Color3.fromRGB(255,255,255)acba.TextXAlignment=Enum.TextXAlignment.Left
+bcba.Name="Cookie-Dough Parcel"bcba.Parent=caaa
+bcba.BackgroundColor3=Color3.fromRGB(50,50,50)bcba.BorderSizePixel=0;bcba.Position=UDim2.new(0,0,0,660)
+bcba.Size=UDim2.new(0,182,0,20)bcba.Font=Enum.Font.Highway;bcba.Text="Cookie-Dough Parcel"
+bcba.TextColor3=Color3.fromRGB(255,255,255)bcba.TextSize=14.000
+bcba.TextStrokeColor3=Color3.fromRGB(255,255,255)bcba.TextXAlignment=Enum.TextXAlignment.Left
+ccba.Name="Blueberry Parcel"ccba.Parent=caaa
+ccba.BackgroundColor3=Color3.fromRGB(50,50,50)ccba.BorderSizePixel=0;ccba.Position=UDim2.new(0,0,0,680)
+ccba.Size=UDim2.new(0,182,0,20)ccba.Font=Enum.Font.Highway;ccba.Text="Blueberry Parcel"
+ccba.TextColor3=Color3.fromRGB(255,255,255)ccba.TextSize=14.000
+ccba.TextStrokeColor3=Color3.fromRGB(255,255,255)ccba.TextXAlignment=Enum.TextXAlignment.Left
+dcba.Name="Sherbert Parcel"dcba.Parent=caaa
+dcba.BackgroundColor3=Color3.fromRGB(50,50,50)dcba.BorderSizePixel=0;dcba.Position=UDim2.new(0,0,0,700)
+dcba.Size=UDim2.new(0,182,0,20)dcba.Font=Enum.Font.Highway;dcba.Text="Sherbert Parcel"
+dcba.TextColor3=Color3.fromRGB(255,255,255)dcba.TextSize=14.000
+dcba.TextStrokeColor3=Color3.fromRGB(255,255,255)dcba.TextXAlignment=Enum.TextXAlignment.Left
+_dba.Name="Coconut Parcel"_dba.Parent=caaa
+_dba.BackgroundColor3=Color3.fromRGB(50,50,50)_dba.BorderSizePixel=0;_dba.Position=UDim2.new(0,0,0,720)
+_dba.Size=UDim2.new(0,182,0,20)_dba.Font=Enum.Font.Highway;_dba.Text="Coconut Parcel"
+_dba.TextColor3=Color3.fromRGB(255,255,255)_dba.TextSize=14.000
+_dba.TextStrokeColor3=Color3.fromRGB(255,255,255)_dba.TextXAlignment=Enum.TextXAlignment.Left
+adba.Name="Moon Astro"adba.Parent=caaa
+adba.BackgroundColor3=Color3.fromRGB(50,50,50)adba.BorderSizePixel=0;adba.Position=UDim2.new(0,0,0,740)
+adba.Size=UDim2.new(0,182,0,20)adba.Font=Enum.Font.Highway;adba.Text="Moon Astro"
+adba.TextColor3=Color3.fromRGB(255,255,255)adba.TextSize=14.000
+adba.TextStrokeColor3=Color3.fromRGB(255,255,255)adba.TextXAlignment=Enum.TextXAlignment.Left
+bdba.Name="Mars Astro"bdba.Parent=caaa
+bdba.BackgroundColor3=Color3.fromRGB(50,50,50)bdba.BorderSizePixel=0;bdba.Position=UDim2.new(0,0,0,760)
+bdba.Size=UDim2.new(0,182,0,20)bdba.Font=Enum.Font.Highway;bdba.Text="Mars Astro"
+bdba.TextColor3=Color3.fromRGB(255,255,255)bdba.TextSize=14.000
+bdba.TextStrokeColor3=Color3.fromRGB(255,255,255)bdba.TextXAlignment=Enum.TextXAlignment.Left
+cdba.Name="Neptune Astro"cdba.Parent=caaa
+cdba.BackgroundColor3=Color3.fromRGB(50,50,50)cdba.BorderSizePixel=0;cdba.Position=UDim2.new(0,0,0,780)
+cdba.Size=UDim2.new(0,182,0,20)cdba.Font=Enum.Font.Highway;cdba.Text="Neptune Astro"
+cdba.TextColor3=Color3.fromRGB(255,255,255)cdba.TextSize=14.000
+cdba.TextStrokeColor3=Color3.fromRGB(255,255,255)cdba.TextXAlignment=Enum.TextXAlignment.Left
+ddba.Name="Epic Astro"ddba.Parent=caaa
+ddba.BackgroundColor3=Color3.fromRGB(50,50,50)ddba.BorderSizePixel=0;ddba.Position=UDim2.new(0,0,0,800)
+ddba.Size=UDim2.new(0,182,0,20)ddba.Font=Enum.Font.Highway;ddba.Text="Epic Astro"
+ddba.TextColor3=Color3.fromRGB(255,255,255)ddba.TextSize=14.000
+ddba.TextStrokeColor3=Color3.fromRGB(255,255,255)ddba.TextXAlignment=Enum.TextXAlignment.Left
+__ca.Name="Spider Ghost"__ca.Parent=caaa
+__ca.BackgroundColor3=Color3.fromRGB(50,50,50)__ca.BorderSizePixel=0;__ca.Position=UDim2.new(0,0,0,820)
+__ca.Size=UDim2.new(0,182,0,20)__ca.Font=Enum.Font.Highway;__ca.Text="Spider Ghost"
+__ca.TextColor3=Color3.fromRGB(255,255,255)__ca.TextSize=14.000
+__ca.TextStrokeColor3=Color3.fromRGB(255,255,255)__ca.TextXAlignment=Enum.TextXAlignment.Left
+a_ca.Name="Pumpkin Ghost"a_ca.Parent=caaa
+a_ca.BackgroundColor3=Color3.fromRGB(50,50,50)a_ca.BorderSizePixel=0;a_ca.Position=UDim2.new(0,0,0,840)
+a_ca.Size=UDim2.new(0,182,0,20)a_ca.Font=Enum.Font.Highway;a_ca.Text="Pumpkin Ghost"
+a_ca.TextColor3=Color3.fromRGB(255,255,255)a_ca.TextSize=14.000
+a_ca.TextStrokeColor3=Color3.fromRGB(255,255,255)a_ca.TextXAlignment=Enum.TextXAlignment.Left
+b_ca.Name="Zombie Ghost"b_ca.Parent=caaa
+b_ca.BackgroundColor3=Color3.fromRGB(50,50,50)b_ca.BorderSizePixel=0;b_ca.Position=UDim2.new(0,0,0,860)
+b_ca.Size=UDim2.new(0,182,0,20)b_ca.Font=Enum.Font.Highway;b_ca.Text="Zombie Ghost"
+b_ca.TextColor3=Color3.fromRGB(255,255,255)b_ca.TextSize=14.000
+b_ca.TextStrokeColor3=Color3.fromRGB(255,255,255)b_ca.TextXAlignment=Enum.TextXAlignment.Left
+c_ca.Name="Repbug"c_ca.Parent=bc_a
+c_ca.BackgroundColor3=Color3.fromRGB(255,255,255)c_ca.BackgroundTransparency=1.000
+c_ca.Position=UDim2.new(-0.00549762696,0,0.801400125,0)c_ca.Size=UDim2.new(0,211,0,31)
+c_ca.Font=Enum.Font.Highway;c_ca.Text="vvv Report bugs here vvv"
+c_ca.TextColor3=Color3.fromRGB(0,0,0)c_ca.TextSize=14.000;d_ca.Name="Sub"d_ca.Parent=bc_a
+d_ca.BackgroundColor3=Color3.fromRGB(255,255,255)d_ca.BackgroundTransparency=1.000
+d_ca.Position=UDim2.new(-0.00549762696,0,0.75378108,0)d_ca.Size=UDim2.new(0,211,0,31)
+d_ca.Font=Enum.Font.Highway;d_ca.Text="Subscribe to zEndHack"
+d_ca.TextColor3=Color3.fromRGB(0,0,0)d_ca.TextSize=14.000;_aca.Name="EquipTB"_aca.Parent=bc_a
+_aca.BackgroundColor3=Color3.fromRGB(255,255,255)_aca.Position=UDim2.new(0.0663507134,0,0.495238096,0)
+_aca.Size=UDim2.new(0,20,0,20)_aca.Font=Enum.Font.SourceSans;_aca.Text=""
+_aca.TextColor3=Color3.fromRGB(0,0,0)_aca.TextSize=14.000;aaca.Name="OnEquip"aaca.Parent=_aca
+aaca.BackgroundColor3=Color3.fromRGB(77,77,77)aaca.BorderSizePixel=0;aaca.Position=UDim2.new(0,4,0,4)
+aaca.Size=UDim2.new(0,12,0,12)baca.Name="EquipIC"baca.Parent=bc_a
+baca.BackgroundColor3=Color3.fromRGB(255,255,255)baca.BackgroundTransparency=1.000
+baca.Position=UDim2.new(0.260663509,0,0.482539684,0)baca.Size=UDim2.new(0,62,0,29)
+baca.Font=Enum.Font.Highway;baca.Text="Auto-Equipment"
+baca.TextColor3=Color3.fromRGB(255,255,255)baca.TextSize=14.000
+local function caca()
+local aaab=Instance.new('LocalScript',dc_a)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0;while
+wait(0.1)do
+aaab.Parent.TextColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(caca)()
+local function daca()
+local aaab=Instance.new('LocalScript',_d_a)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0;while
+wait(0.1)do
+aaab.Parent.TextColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(daca)()
+local function _bca()
+local aaab=Instance.new('LocalScript',bd_a)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0
+while
+wait(0.1)do
+aaab.Parent.BackgroundColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(_bca)()
+local function abca()
+local aaab=Instance.new('LocalScript',bd_a)while wait()do aaab.Parent.Visible=_G.ason end end;coroutine.wrap(abca)()
+local function bbca()
+local aaab=Instance.new('LocalScript',ad_a)_G.ason=false
+aaab.Parent.MouseButton1Click:Connect(function()if _G.ason==false then
+_G.ason=true else _G.ason=false end end)end;coroutine.wrap(bbca)()
+local function cbca()
+local aaab=Instance.new('LocalScript',ad_a)
+while wait(0.0001)do local baab=game.Players.LocalPlayer;local caab=baab.Character
+local daab=aaab.Parent.Parent.DropDown.Text
+if _G.ason==true then
+if daab~=nil then local _bab={}
+function divideName(bbab)local cbab=bbab:match("%a+ ")
+if cbab then cbab=cbab:sub(1,
+cbab:len()-1)local dbab=bbab:match("%a+ ")local _cab=
+dbab:len()+1;table.insert(_bab,cbab)
+local acab=bbab:sub(_cab)if acab then table.insert(_bab,acab)end end end;divideName(daab)
+local abab=game.Workspace["_NPCLocations"]:GetChildren()
+for i=1,#abab do
+if abab[i].Flavours:FindFirstChild(_bab[1])then
+if abab[i].Name==
+"Parcel"and _bab[2]=="Parcel"then
+local bbab=abab[i].NPCs:GetChildren()
+for v=1,#bbab do
+if bbab[v].Flavour.Value==_bab[1]then
+if bbab[v]then
+caab.HumanoidRootPart.CFrame=bbab[v].HumanoidRootPart.CFrame;local cbab=bbab[v]
+local dbab=game:GetService("ReplicatedStorage").RemoteEvents.SellIceCream;dbab:FireServer(cbab)end end end elseif abab[i].Name=="Slushy"and _bab[2]=="Slushy"then
+local bbab=abab[i].NPCs:GetChildren()
+for v=1,#bbab do
+if bbab[v].Flavour.Value==_bab[1]then
+if bbab[v]then
+caab.HumanoidRootPart.CFrame=bbab[v].HumanoidRootPart.CFrame;local cbab=bbab[v]
+local dbab=game:GetService("ReplicatedStorage").RemoteEvents.SellIceCream;dbab:FireServer(cbab)end end end elseif abab[i].Name=="Normal"and _bab[2]=="Cone"or
+_bab[2]=="Lolly"then
+local bbab=abab[i].NPCs:GetChildren()
+for v=1,#bbab do
+if bbab[v].Flavour.Value==_bab[1]then
+if bbab[v]then
+caab.HumanoidRootPart.CFrame=bbab[v].HumanoidRootPart.CFrame;local cbab=bbab[v]
+local dbab=game:GetService("ReplicatedStorage").RemoteEvents.SellIceCream;dbab:FireServer(cbab)end end end elseif abab[i].Name=="Mars Alien"and _bab[1]=="Mars"then
+local bbab=abab[i].NPCs:GetChildren()
+for v=1,#bbab do
+if bbab[v].Flavour.Value==_bab[1]then
+if bbab[v]then
+caab.HumanoidRootPart.CFrame=bbab[v].HumanoidRootPart.CFrame;local cbab=bbab[v]
+local dbab=game:GetService("ReplicatedStorage").RemoteEvents.SellIceCream;dbab:FireServer(cbab)end end end elseif abab[i].Name=="Moon Alien"and _bab[1]=="Moon"then
+local bbab=abab[i].NPCs:GetChildren()
+for v=1,#bbab do
+if bbab[v].Flavour.Value==_bab[1]then
+if bbab[v]then
+caab.HumanoidRootPart.CFrame=bbab[v].HumanoidRootPart.CFrame;local cbab=bbab[v]
+local dbab=game:GetService("ReplicatedStorage").RemoteEvents.SellIceCream;dbab:FireServer(cbab)end end end elseif
+abab[i].Name=="Neptune Alien"and _bab[1]=="Neptune"then local bbab=abab[i].NPCs:GetChildren()
+for v=1,#bbab do
+if
+bbab[v].Flavour.Value==_bab[1]then
+if bbab[v]then
+caab.HumanoidRootPart.CFrame=bbab[v].HumanoidRootPart.CFrame;local cbab=bbab[v]
+local dbab=game:GetService("ReplicatedStorage").RemoteEvents.SellIceCream;dbab:FireServer(cbab)end end end elseif abab[i].Name=="Epic Alien"and _bab[1]=="Epic"then
+local bbab=abab[i].NPCs:GetChildren()
+for v=1,#bbab do
+if bbab[v].Flavour.Value==_bab[1]then
+if bbab[v]then
+caab.HumanoidRootPart.CFrame=bbab[v].HumanoidRootPart.CFrame;local cbab=bbab[v]
+local dbab=game:GetService("ReplicatedStorage").RemoteEvents.SellIceCream;dbab:FireServer(cbab)end end end elseif
+abab[i].Name=="Pumpkin Ghost"and _bab[1]=="Pumpkin"then local bbab=abab[i].NPCs:GetChildren()
+for v=1,#bbab do
+if
+bbab[v].Flavour.Value==_bab[1]then
+if bbab[v]then
+caab.HumanoidRootPart.CFrame=bbab[v].HumanoidRootPart.CFrame;local cbab=bbab[v]
+local dbab=game:GetService("ReplicatedStorage").RemoteEvents.SellIceCream;dbab:FireServer(cbab)end end end elseif
+abab[i].Name=="Zombie Alien"and _bab[1]=="Zombie"then local bbab=abab[i].NPCs:GetChildren()
+for v=1,#bbab do
+if
+bbab[v].Flavour.Value==_bab[1]then
+if bbab[v]then
+caab.HumanoidRootPart.CFrame=bbab[v].HumanoidRootPart.CFrame;local cbab=bbab[v]
+local dbab=game:GetService("ReplicatedStorage").RemoteEvents.SellIceCream;dbab:FireServer(cbab)end end end elseif
+abab[i].Name=="Spider Alien"and _bab[1]=="Spider"then local bbab=abab[i].NPCs:GetChildren()
+for v=1,#bbab do
+if
+bbab[v].Flavour.Value==_bab[1]then
+if bbab[v]then
+caab.HumanoidRootPart.CFrame=bbab[v].HumanoidRootPart.CFrame;local cbab=bbab[v]
+local dbab=game:GetService("ReplicatedStorage").RemoteEvents.SellIceCream;dbab:FireServer(cbab)end end end end end end end end end end;coroutine.wrap(cbca)()
+local function dbca()
+local aaab=Instance.new('LocalScript',dd_a)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0;while
+wait(0.1)do
+aaab.Parent.TextColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(dbca)()
+local function _cca()
+local aaab=Instance.new('LocalScript',cd_a)
+aaab.Parent.MouseButton1Click:Connect(function()
+if
+aaab.Parent.Parent.ScrollingFrame.Visible==false then
+aaab.Parent.Parent.ScrollingFrame.Visible=true else
+aaab.Parent.Parent.ScrollingFrame.Visible=false end end)end;coroutine.wrap(_cca)()
+local function acca()
+local aaab=Instance.new('LocalScript',bc_a)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0
+while
+wait(0.1)do
+aaab.Parent.BorderColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(acca)()
+local function bcca()
+local aaab=Instance.new('LocalScript',__aa)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0;while
+wait(0.1)do
+aaab.Parent.TextColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(bcca)()
+local function ccca()
+local aaab=Instance.new('LocalScript',a_aa)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0;while
+wait(0.1)do
+aaab.Parent.TextColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(ccca)()
+local function dcca()
+local aaab=Instance.new('LocalScript',b_aa)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0;while
+wait(0.1)do
+aaab.Parent.TextColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(dcca)()
+local function _dca()
+local aaab=Instance.new('LocalScript',d_aa)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0
+while
+wait(0.1)do
+aaab.Parent.BackgroundColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(_dca)()
+local function adca()
+local aaab=Instance.new('LocalScript',d_aa)while wait()do aaab.Parent.Visible=_G.speed end end;coroutine.wrap(adca)()
+local function bdca()
+local aaab=Instance.new('LocalScript',c_aa)_G.speed=false
+aaab.Parent.MouseButton1Click:Connect(function()if _G.speed==false then
+_G.speed=true else _G.speed=false end end)end;coroutine.wrap(bdca)()
+local function cdca()
+local aaab=Instance.new('LocalScript',c_aa)
+while wait(0.01)do local baab=game.Players.LocalPlayer;local caab=baab.Character or
+baab.CharacterAdded:wait()
+if _G.speed==true then
+caab.Humanoid.WalkSpeed=50 else caab.Humanoid.WalkSpeed=16 end end end;coroutine.wrap(cdca)()
+local function ddca()
+local aaab=Instance.new('LocalScript',_aaa)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0;while
+wait(0.1)do
+aaab.Parent.TextColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(ddca)()
+local function __da()
+local aaab=Instance.new('LocalScript',baaa)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0
+while
+wait(0.1)do
+aaab.Parent.BackgroundColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(__da)()
+local function a_da()
+local aaab=Instance.new('LocalScript',baaa)while wait()do aaab.Parent.Visible=_G.abon end end;coroutine.wrap(a_da)()
+local function b_da()
+local aaab=Instance.new('LocalScript',aaaa)_G.abon=false
+aaab.Parent.MouseButton1Click:Connect(function()if _G.abon==false then
+_G.abon=true else _G.abon=false end end)end;coroutine.wrap(b_da)()
+local function c_da()
+local aaab=Instance.new('LocalScript',aaaa)
+while wait()do local baab=aaab.Parent.Parent.DropDown.Text
+if
+_G.abon==true then
+if baab~=nil then local caab={}
+function divideName(cbab)local dbab=cbab:match("%a+ ")
+if dbab then dbab=dbab:sub(1,
+dbab:len()-1)local _cab=cbab:match("%a+ ")local acab=
+_cab:len()+1;table.insert(caab,dbab)
+local bcab=cbab:sub(acab)if bcab then table.insert(caab,bcab)end end end;divideName(baab)local daab=caab[2]local _bab=caab[1]local abab=2
+local bbab=game:GetService("ReplicatedStorage").RemoteEvents.PurchaseIceCream;bbab:InvokeServer(daab,_bab,abab)end else end end end;coroutine.wrap(c_da)()
+local function d_da()
+local aaab=Instance.new('LocalScript',daaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(d_da)()
+local function _ada()
+local aaab=Instance.new('LocalScript',_baa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(_ada)()
+local function aada()
+local aaab=Instance.new('LocalScript',abaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(aada)()
+local function bada()
+local aaab=Instance.new('LocalScript',bbaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(bada)()
+local function cada()
+local aaab=Instance.new('LocalScript',cbaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(cada)()
+local function dada()
+local aaab=Instance.new('LocalScript',dbaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(dada)()
+local function _bda()
+local aaab=Instance.new('LocalScript',_caa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(_bda)()
+local function abda()
+local aaab=Instance.new('LocalScript',acaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(abda)()
+local function bbda()
+local aaab=Instance.new('LocalScript',bcaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(bbda)()
+local function cbda()
+local aaab=Instance.new('LocalScript',ccaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(cbda)()
+local function dbda()
+local aaab=Instance.new('LocalScript',dcaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(dbda)()
+local function _cda()
+local aaab=Instance.new('LocalScript',_daa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(_cda)()
+local function acda()
+local aaab=Instance.new('LocalScript',adaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(acda)()
+local function bcda()
+local aaab=Instance.new('LocalScript',bdaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(bcda)()
+local function ccda()
+local aaab=Instance.new('LocalScript',cdaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(ccda)()
+local function dcda()
+local aaab=Instance.new('LocalScript',ddaa)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(dcda)()
+local function _dda()
+local aaab=Instance.new('LocalScript',__ba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(_dda)()
+local function adda()
+local aaab=Instance.new('LocalScript',a_ba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(adda)()
+local function bdda()
+local aaab=Instance.new('LocalScript',b_ba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(bdda)()
+local function cdda()
+local aaab=Instance.new('LocalScript',c_ba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(cdda)()
+local function ddda()
+local aaab=Instance.new('LocalScript',d_ba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(ddda)()
+local function ___b()
+local aaab=Instance.new('LocalScript',_aba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(___b)()
+local function a__b()
+local aaab=Instance.new('LocalScript',aaba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(a__b)()
+local function b__b()
+local aaab=Instance.new('LocalScript',baba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(b__b)()
+local function c__b()
+local aaab=Instance.new('LocalScript',caba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(c__b)()
+local function d__b()
+local aaab=Instance.new('LocalScript',daba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(d__b)()
+local function _a_b()
+local aaab=Instance.new('LocalScript',_bba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(_a_b)()
+local function aa_b()
+local aaab=Instance.new('LocalScript',abba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(aa_b)()
+local function ba_b()
+local aaab=Instance.new('LocalScript',bbba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(ba_b)()
+local function ca_b()
+local aaab=Instance.new('LocalScript',cbba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(ca_b)()
+local function da_b()
+local aaab=Instance.new('LocalScript',dbba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(da_b)()
+local function _b_b()
+local aaab=Instance.new('LocalScript',_cba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(_b_b)()
+local function ab_b()
+local aaab=Instance.new('LocalScript',acba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(ab_b)()
+local function bb_b()
+local aaab=Instance.new('LocalScript',bcba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(bb_b)()
+local function cb_b()
+local aaab=Instance.new('LocalScript',ccba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(cb_b)()
+local function db_b()
+local aaab=Instance.new('LocalScript',dcba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(db_b)()
+local function _c_b()
+local aaab=Instance.new('LocalScript',_dba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(_c_b)()
+local function ac_b()
+local aaab=Instance.new('LocalScript',adba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(ac_b)()
+local function bc_b()
+local aaab=Instance.new('LocalScript',bdba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(bc_b)()
+local function cc_b()
+local aaab=Instance.new('LocalScript',cdba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(cc_b)()
+local function dc_b()
+local aaab=Instance.new('LocalScript',ddba)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(dc_b)()
+local function _d_b()
+local aaab=Instance.new('LocalScript',__ca)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(_d_b)()
+local function ad_b()
+local aaab=Instance.new('LocalScript',a_ca)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(ad_b)()
+local function bd_b()
+local aaab=Instance.new('LocalScript',b_ca)
+aaab.Parent.MouseButton1Click:Connect(function()
+aaab.Parent.Parent.Parent.DropDown.Text=aaab.Parent.Text;aaab.Parent.Parent.Visible=false end)end;coroutine.wrap(bd_b)()
+local function cd_b()
+local aaab=Instance.new('LocalScript',c_ca)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0;while
+wait(0.1)do
+aaab.Parent.TextColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(cd_b)()
+local function dd_b()
+local aaab=Instance.new('LocalScript',d_ca)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0;while
+wait(0.1)do
+aaab.Parent.TextColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(dd_b)()
+local function __ab()
+local aaab=Instance.new('LocalScript',aaca)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0
+while
+wait(0.1)do
+aaab.Parent.BackgroundColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(__ab)()
+local function a_ab()
+local aaab=Instance.new('LocalScript',aaca)while wait()do aaab.Parent.Visible=_G.eq end end;coroutine.wrap(a_ab)()
+local function b_ab()
+local aaab=Instance.new('LocalScript',_aca)_G.eq=false
+aaab.Parent.MouseButton1Click:Connect(function()if _G.eq==false then _G.eq=true else
+_G.eq=false end end)end;coroutine.wrap(b_ab)()
+local function c_ab()
+local aaab=Instance.new('LocalScript',_aca)
+while wait(0.01)do local baab=game.Players.LocalPlayer;local caab=baab.Character or
+baab.CharacterAdded:wait()
+local daab=baab.Config.Cash;local _bab=baab.Equipment
+if _G.eq==true then
+if daab.Value>200 and
+_bab["Triple Tray"].Value~=1 then local abab="Triple Tray"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)elseif daab.Value>2000 and _bab["Box"].Value~=1 then
+local abab="Box"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)elseif
+daab.Value>11000 and _bab["Trolley"].Value~=1 then local abab="Trolley"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)elseif daab.Value>250000 and _bab["Bike"].Value~=1 then
+local abab="Bike"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)elseif daab.Value>6000000 and _bab["Van"].Value~=1 then
+local abab="Van"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)elseif
+daab.Value>125000000 and _bab["Electric Lorry"].Value~=1 then local abab="Electric Lorry"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)elseif
+daab.Value>800000000 and _bab["Boat"].Value~=1 then local abab="Boat"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)elseif
+daab.Value>100000000000 and _bab["Plane"].Value~=1 then local abab="Plane"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)elseif
+daab.Value>20000000000000 and _bab["Rocket"].Value~=1 then local abab="Rocket"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)elseif
+daab.Value>5000000000000000 and _bab["Train"].Value~=1 then local abab="Train"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)elseif
+daab.Value>9000000000000000000 and _bab["Sled"].Value~=1 then local abab="Sled"
+game:GetService("ReplicatedStorage").RemoteEvents.PurchaseEquipment:InvokeServer(abab)
+game:GetService("ReplicatedStorage").RemoteEvents.ConfirmYesRecycle:InvokeServer()
+game:GetService("ReplicatedStorage").RemoteEvents.Equip:InvokeServer(abab)end end end end;coroutine.wrap(c_ab)()
+local function d_ab()
+local aaab=Instance.new('LocalScript',baca)function zigzag(baab)return
+math.acos(math.cos(baab*math.pi))/math.pi end;counter=0;while
+wait(0.1)do
+aaab.Parent.TextColor3=Color3.fromHSV(zigzag(counter),1,1)counter=counter+0.01 end end;coroutine.wrap(d_ab)()
+local function _aab()
+local aaab=Instance.new('LocalScript',ac_a)local baab=aaab.Parent.Frame;local caab=game.Players.LocalPlayer
+baab.Draggable=true;baab.Active=true;baab.Selectable=true
+caab.PlayerGui.HUD.Main.SpeechFrame:Destroy()end;coroutine.wrap(_aab)()
