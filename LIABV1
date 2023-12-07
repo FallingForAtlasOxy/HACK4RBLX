@@ -1,9 +1,4 @@
---[[Credits to:
--ustinjamesss i made the autosell works  
--Newton Hes the guy who made the script, i only fixed it and added autosell
-]]
- -- Press Z to turn it off
- getgenv().loop = true
+getgenv().loop = true
  local lp = game.Players.LocalPlayer
 local invspace = lp.playerStats.inventorySpace
 local inventory = lp.playerStats.inventory
