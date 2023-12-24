@@ -3,7 +3,8 @@ local Window = OrionLib:MakeWindow({Name = "AtlasOfficial's Hub", HidePremium = 
 
 local TutTab = Window:MakeTab({
 	Name = "Home",
-	Icon = "rbxassetid://4483345998",
+	IntroTitle = "Nice Job",
+        Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
