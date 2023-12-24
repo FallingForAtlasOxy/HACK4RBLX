@@ -1,0 +1,85 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "AtlasOfficial's Hub", HidePremium = false, IntroText = "Wow Man You Used The Op Gui!", SaveConfig = false, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "Se",
+	Content = "xTutTab:AddButton({
+	Name = "",
+	Callback = function()
+      		loadstring(game:HttpGet(""))()
+  	end    
+})",
+	Image = "rbxassetid://4483345998",
+	Time = 0.1
+})
+
+local TutTab = Window:MakeTab({
+	Name = "Tutorial",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = TutTab:AddSection({
+	Name = "Home🤑"
+})
+
+TutTab:AddButton({
+	Name = "Shiftlock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Shiftlock"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "Nameless Admin v1",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Nameless"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "RedzHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/RedZ-Hub"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "Keyboard",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Keyboard"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "BedolHub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/BedolHub"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "AdminPanel",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/AdminPanel"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "Pshade",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Pshade"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "Mfly",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/MFly"))()
+  	end    
+})
+
+
+end
+OrionLib:Init()
