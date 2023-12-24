@@ -3,15 +3,10 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "AtlasOfficial's Hub", HidePremium = false, IntroText = "Wow Man You Used The Op Gui!", SaveConfig = false, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
-	Name = "Se",
-	Content = "xTutTab:AddButton({
-	Name = "",
-	Callback = function()
-      		loadstring(game:HttpGet(""))()
-  	end    
-})",
+	Name = "selam",
+	Content = "mal!",
 	Image = "rbxassetid://4483345998",
-	Time = 0.1
+	Time = 0.3
 })
 
 local TutTab = Window:MakeTab({
