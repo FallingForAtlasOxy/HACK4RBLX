@@ -1,0 +1,35 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "AtlasOfficial's Hub", HidePremium = false, IntroText = "Wow Man You Used The Op Gui!", SaveConfig = false, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = ".",
+	Content = ".",
+	Image = "rbxassetid://4483345998",
+	Time = 0.1
+})
+
+local TutTab = Window:MakeTab({
+	Name = "Tutorial",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = TutTab:AddSection({
+	Name = "Home🤑"
+})
+
+TutTab:AddButton({
+	Name = "Shiftlock",
+	Callback = function(shiftlock)
+      		print("You Now Can Use Shiftlock")
+  	end    
+})
+
+local function shiftlock()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Shiftlock"))()
+
+
+
+end
+OrionLib:Init()
