@@ -28,6 +28,24 @@ TutTab:AddButton({
   	end    
 })
 
+
+
+TutTab:AddButton({
+	Name = "InfYield",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/InfYield"))()
+  	end    
+})
+
+
+
+TutTab:AddButton({
+	Name = "TpTool",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/TpTool"))()
+  	end    
+})
+
 TutTab:AddButton({
 	Name = "RedzHub",
 	Callback = function()
