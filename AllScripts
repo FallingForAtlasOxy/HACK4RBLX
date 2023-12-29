@@ -3,7 +3,7 @@ local Window = OrionLib:MakeWindow({Name = "AtlasOfficial's Hub", HidePremium = 
 
 local TutTab = Window:MakeTab({
 	Name = "Home",
-	IntroTitle = "Nice Job",
+	IntroText = "By : AtlasOfficial",
         Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -41,6 +41,7 @@ TutTab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Keyboard"))()
   	end    
 })
+
 
 TutTab:AddButton({
 	Name = "BedolHub",
