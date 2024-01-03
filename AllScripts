@@ -69,16 +69,9 @@ TutTab:AddButton({
 })
 
 TutTab:AddButton({
-	Name = "AdminPanel",
+	Name = "SplitInHalf",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/AdminPanel"))()
-  	end    
-})
-
-TutTab:AddButton({
-	Name = "Pshade",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Pshade"))() loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Keyboard"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Split%20In%20half"))()
   	end    
 })
 
