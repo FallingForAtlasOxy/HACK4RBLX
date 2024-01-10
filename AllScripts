@@ -12,7 +12,12 @@ local Section = TutTab:AddSection({
 	Name = "Scripts"
 })
 
-
+TutTab:AddButton({
+	Name = "AutoTap",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/AutoTap"))()
+  	end    
+})
 
 TutTab:AddButton({
 	Name = "Shiftlock",
@@ -28,16 +33,12 @@ TutTab:AddButton({
   	end    
 })
 
-
-
 TutTab:AddButton({
 	Name = "InfYield",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/InfYield"))()
   	end    
 })
-
-
 
 TutTab:AddButton({
 	Name = "TpTool",
@@ -59,7 +60,6 @@ TutTab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Keyboard"))()
   	end    
 })
-
 
 TutTab:AddButton({
 	Name = "BedolHub",
