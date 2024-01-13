@@ -1,0 +1,4 @@
+local player = game.Players.LocalPlayer
+local humanoid = player.Character.Humanoid
+
+humanoid.JumpPower = 65
