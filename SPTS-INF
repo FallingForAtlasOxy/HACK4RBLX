@@ -3,7 +3,7 @@ local Window = OrionLib:MakeWindow({Name = "SPTS-INF", HidePremium = false, Save
 
 local TutTab = Window:MakeTab({
 	Name = "Home",
-	IntroText = "By:AtlasOfficial",
+	IntroEnabled = false,
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
