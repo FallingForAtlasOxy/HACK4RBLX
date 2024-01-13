@@ -4,25 +4,39 @@ local Window = OrionLib:MakeWindow({Name = "AtlasOfficial's Hub", HidePremium = 
 local TutTab = Window:MakeTab({
 	Name = "Home",
 	IntroText = "By:AtlasOfficial",
-        Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = TutTab:AddSection({
-	Name = "Scripts"
+	Name = "JOE MAMA"
 })
 
 TutTab:AddButton({
-	Name = "AutoTap",
+	Name = "Auto Tap (FR ☠️)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/AutoTap"))()
   	end    
 })
 
 TutTab:AddButton({
-	Name = "Shiftlock",
+	Name = "Infinite Yield",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Shiftlock"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/InfYield"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "Bedol Hub (Balls)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/BedolHub"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "Fps N Ping Counter",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Fps%26Ping"))()
   	end    
 })
 
@@ -34,9 +48,9 @@ TutTab:AddButton({
 })
 
 TutTab:AddButton({
-	Name = "InfYield",
+	Name = "Shiftlock",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/InfYield"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Shiftlock"))()
   	end    
 })
 
@@ -58,20 +72,6 @@ TutTab:AddButton({
 	Name = "Keyboard",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Keyboard"))()
-  	end    
-})
-
-TutTab:AddButton({
-	Name = "BedolHub",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/BedolHub"))()
-  	end    
-})
-
-TutTab:AddButton({
-	Name = "SplitInHalf",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/Hacks/main/Split%20In%20half"))()
   	end    
 })
 
