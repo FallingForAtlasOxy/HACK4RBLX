@@ -1,0 +1,45 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "SPTS-INF", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local TutTab = Window:MakeTab({
+	Name = "Home",
+	IntroText = "By:AtlasOfficial",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = TutTab:AddSection({
+	Name = "WALK SPEED & JUMP POWER ;"
+})
+
+TutTab:AddButton({
+	Name = "JumpPower 0",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/JP-0"))()
+  	end        
+})
+
+TutTab:AddButton({
+	Name = "WalkSpeed 0",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/WS-0"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "JumpPower 65",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/JP-65"))()
+  	end    
+})
+
+TutTab:AddButton({
+	Name = "WalkSpeed 65",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/WS-65"))()
+  	end    
+})
+
+
+
+OrionLib:Init()
