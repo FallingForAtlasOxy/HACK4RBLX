@@ -3,31 +3,31 @@ local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 local window = DrRayLibrary:Load("AtlasVov3kL", "Default")
 
 local tab1 = DrRayLibrary.newTab("Main", "ImageIdHere")
-tab1.newLabel("🤑Ready For Experiences?!🤑")
-tab1.newButton("💪JP 0💪", "Sets Jump Power To 0", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/JP-0"))()
+tab1.newLabel("Ready For Experiences?!")
+tab1.newButton("JP 0", "Sets Jump Power To 0", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/JP-0"))()
 end)
 
-tab1.newButton("🦵WS 0🦵", "Sets Walk Speed To 0", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/WS-0"))()
+tab1.newButton("WS 0", "Sets Walk Speed To 0", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/WS-0"))()
 end)
 
-tab1.newButton("💪JP 65💪", "Sets Jump Power To 65", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/JP-65"))()
+tab1.newButton("JP 65", "Sets Jump Power To 65", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/JP-65"))()
 end)
 
-tab1.newButton("🦵WS 65🦵", "Sets Walk Speed To 65 ", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/WS-65"))()
-
-local tab2 = DrRayLibrary.newTab("🗿UnMain🗿", "ImageIdLogoHere")
-
-tab2.newLabel("📜Dex📜")
-tab2.newButton("🌌DarkDex🌌", "Opens DarkDex", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
-
+tab1.newButton("WS 65", "Sets Walk Speed To 65 ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FallingForAtlasOxy/HACK4RBLX/main/WS-65"))()
 end)
 
-tab2.newButton("Copy Tp Script", "Opens DarkDex", function()
-	setclipboard("game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()")
+local tab2 = DrRayLibrary.newTab("UnMain", "ImageIdLogoHere")
 
+tab2.newLabel("Dex")
+
+tab2.newButton("DarkDex", "Opens DarkDex", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end)
+
+tab2.newButton("Copy Tp Script", "", function()
+setclipboard("game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()")
 end)
